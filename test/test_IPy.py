@@ -9,8 +9,8 @@ Hacked 2001 by drt@un.bewaff.net
 
 import sys
 import threading
-sys.path.append('.')
-sys.path.append('..')
+sys.path.insert(0, '.')
+sys.path.insert(1, '..')
 
 import IPy
 import unittest
